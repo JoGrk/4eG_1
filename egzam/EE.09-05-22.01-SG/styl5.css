@@ -10,22 +10,26 @@ body{
 
 #banerL{
     width: 70%;
+    float: left;
 }
 
 #banerP{
     width: 30%;
+    float: left;
 }
 
 #sectionL{
     background-color: #26a69a;
     height: 550px;
     width: 30%;
+    float: left;
 }
 
 #sectionP{
     background-color: #26a69a;
     height: 550px;
     width: 70%;
+    float: left;
 }
 
 footer{

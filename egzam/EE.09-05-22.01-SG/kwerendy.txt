@@ -6,3 +6,5 @@ Zapytanie 3 : select login,rok_urodz,przyjaciol,hobby,zdjecie from uzytkownicy i
 
 Zapytanie 4 : alter table dane
 add column stanowisko varchar(255);
+
+
