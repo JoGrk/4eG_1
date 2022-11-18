@@ -1,58 +1,61 @@
-body{
-    font-family: Tahoma;
+body {
+  font-family: Tahoma;
+  /* margin: 0; */
 }
 
-#banerL, #banerP{
-    background-color: #003d33;
-    color: white;
-    text-align: center;
+#banerL,
+#banerP {
+  background-color: #003d33;
+  color: white;
+  text-align: center;
+  height: 50px;
 }
 
-#banerL{
-    width: 70%;
-    float: left;
+#banerL {
+  width: 70%;
+  float: left;
 }
 
-#banerP{
-    width: 30%;
-    float: left;
+#banerP {
+  width: 30%;
+  float: left;
 }
 
-#sectionL{
-    background-color: #26a69a;
-    height: 550px;
-    width: 30%;
-    float: left;
+#sectionL {
+  background-color: #26a69a;
+  height: 550px;
+  width: 30%;
+  float: left;
 }
 
-#sectionP{
-    background-color: #26a69a;
-    height: 550px;
-    width: 70%;
-    float: left;
+#sectionP {
+  background-color: #26a69a;
+  height: 550px;
+  width: 70%;
+  float: left;
 }
 
-footer{
-    background-color: #003d33;
-    color: white;
+footer {
+  background-color: #003d33;
+  color: white;
+  clear: both;
 }
 
-#wiz{
-    width: 400px;
-    margin: 30px;
-    text-align: center;
-    border: solid #003d33 1px;
-
+#wiz {
+  width: 400px;
+  margin: 30px;
+  text-align: center;
+  border: solid #003d33 1px;
 }
 
-#wyslij{
-    background-color: #003d33;
-    color: white;
-    width: 100%;
-    height: 30px;
-    border: none;
+#wyslij {
+  background-color: #003d33;
+  color: white;
+  width: 100%;
+  height: 30px;
+  border: none;
 }
 
-#wyslij :hover{
-    background-color:  #004c40;
+#wyslij :hover {
+  background-color: #004c40;
 }
