@@ -1,0 +1,3 @@
+1.SELECT imie, nazwisko, punkty FROM klienci ORDER BY punkty DESC LIMIT 3;
+2.select nazwa,count(*) from typy inner join klienci on typy.id=klienci.Typy_id;
+3. SELECT zdjecie, imie, opinia FROM klienci INNER JOIN opinie ON klienci.id=opinie.Klienci_id WHERE Typy_id IN (2,3);

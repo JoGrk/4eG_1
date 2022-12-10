@@ -1,0 +1,12 @@
+Zapytanie 1
+select id, nazwa , wystepowanie from ryby where styl_zycia = 1;
+
+Zapytanie 2
+SELECT ryby_id, wymiar_ochronny FROM okres_ochronny WHERE wymiar_ochronny < 30;
+
+Zapytanie 3
+SELECT nazwa,akwen,wojewodztwo FROM ryby INNER JOIN lowisko ON ryby.id = lowisko.Ryby_id WHERE rodzaj = 3;
+
+Zapytanie 4
+ALTER TABLE ryby
+add column dobowy_limit tinyINT unsigned
